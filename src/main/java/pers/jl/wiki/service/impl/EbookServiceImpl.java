@@ -2,6 +2,7 @@ package pers.jl.wiki.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pers.jl.wiki.dto.req.EbookReq;
 import pers.jl.wiki.mbg.entity.Ebook;
 import pers.jl.wiki.mbg.entity.EbookExample;
 import pers.jl.wiki.mbg.mapper.EbookMapper;
@@ -21,6 +22,15 @@ public class EbookServiceImpl implements EbookService {
     private EbookMapper ebookMapper;
     @Override
     public List<Ebook> listAllEbook() {
+        return ebookMapper.selectByExample(new EbookExample());
+    }
+
+    @Override
+    public List<Ebook> getEbookBy(EbookReq ebookReq) {
+        EbookExample ebookExample = new EbookExample();
+        EbookExample.Criteria criteria = ebookExample.createCriteria();
+        ebookReq.setId(3L);
+        criteria.andNameLike("%"+ebookReq+"%");
         return ebookMapper.selectByExample(new EbookExample());
     }
 }

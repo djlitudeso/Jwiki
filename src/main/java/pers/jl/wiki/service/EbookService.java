@@ -1,5 +1,6 @@
 package pers.jl.wiki.service;
 
+import pers.jl.wiki.dto.req.EbookReq;
 import pers.jl.wiki.mbg.entity.Ebook;
 
 import java.util.List;
@@ -12,4 +13,6 @@ import java.util.List;
 public interface EbookService {
 
     List<Ebook> listAllEbook();
+
+    List<Ebook> getEbookBy(EbookReq ebookReq);
 }

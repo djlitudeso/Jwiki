@@ -4,10 +4,12 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import pers.jl.wiki.common.api.CommonResult;
+import pers.jl.wiki.dto.req.EbookReq;
 import pers.jl.wiki.mbg.entity.Ebook;
 import pers.jl.wiki.service.EbookService;
 
@@ -34,4 +36,10 @@ public class EbookController {
         return CommonResult.success(ebookService.listAllEbook());
     }
 
+    @ApiOperation("电子书查询")
+    @RequestMapping(value = "select",method = RequestMethod.GET)
+    @ResponseBody
+    public CommonResult<List<Ebook>> getEbookbyIdOrName(@RequestBody EbookReq ebookReq){
+        return CommonResult.success(ebookService.getEbookBy(ebookReq));
+    }
 }
