@@ -41,10 +41,10 @@
                              targetPackage="pers.jl.wiki.mbg.mapper"
                              type="XMLMAPPER"/>
         <!--生成全部表tableName设为%-->
-<!--        <table tableName="pms_brand">
+        <table tableName="ebook">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>-->
-        <table tableName="test"/>
+        </table>
+ <!--       <table tableName="test"/>-->
 
     </context>
 </generatorConfiguration>

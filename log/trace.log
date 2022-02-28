@@ -406,3 +406,136 @@ org.springframework.context.annotation.ConflictingBeanDefinitionException: Annot
 2022-02-28 21:39:06.349 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
 2022-02-28 21:39:06.497 INFO  com.alibaba.druid.pool.DruidDataSource            :2029 [32m                  [0;39m {dataSource-1} closing ...
 2022-02-28 21:39:06.505 INFO  com.alibaba.druid.pool.DruidDataSource            :2101 [32m                  [0;39m {dataSource-1} closed
+2022-02-28 22:37:04.912 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-02-28 22:37:05.034 INFO  pers.jl.wiki.WikiApplication                      :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_271 on DESKTOP-3I5LREP with PID 3068 (G:\ProjectSpace\IdeaProjects\PersProjects\wiki\target\classes started by DJ in G:\ProjectSpace\IdeaProjects\PersProjects\wiki)
+2022-02-28 22:37:05.036 INFO  pers.jl.wiki.WikiApplication                      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-28 22:37:05.270 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-28 22:37:05.271 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-28 22:37:09.402 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 22:37:09.407 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-28 22:37:09.536 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-02-28 22:37:11.259 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-02-28 22:37:11.285 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:37:11.286 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-28 22:37:11.286 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-02-28 22:37:11.489 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-28 22:37:11.490 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 6218 ms
+2022-02-28 22:37:11.910 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2022-02-28 22:37:12.690 INFO  com.alibaba.druid.pool.DruidDataSource            :994  [32m                  [0;39m {dataSource-1} inited
+2022-02-28 22:37:15.138 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-02-28 22:37:15.518 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:37:15.580 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-28 22:37:16.953 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:37:16.991 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-28 22:37:17.334 INFO  pers.jl.wiki.WikiApplication                      :61   [32m                  [0;39m Started WikiApplication in 15.041 seconds (JVM running for 17.453)
+2022-02-28 22:37:18.485 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-28 22:37:18.486 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-28 22:37:18.488 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2022-02-28 22:38:59.115 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:38:59.283 INFO  com.alibaba.druid.pool.DruidDataSource            :2029 [32m                  [0;39m {dataSource-1} closing ...
+2022-02-28 22:38:59.289 INFO  com.alibaba.druid.pool.DruidDataSource            :2101 [32m                  [0;39m {dataSource-1} closed
+2022-02-28 22:43:09.428 INFO  pers.jl.wiki.WikiApplication                      :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_271 on DESKTOP-3I5LREP with PID 10988 (G:\ProjectSpace\IdeaProjects\PersProjects\wiki\target\classes started by DJ in G:\ProjectSpace\IdeaProjects\PersProjects\wiki)
+2022-02-28 22:43:09.420 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-02-28 22:43:09.433 INFO  pers.jl.wiki.WikiApplication                      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-28 22:43:09.545 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-28 22:43:09.546 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-28 22:43:11.950 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 22:43:11.958 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-28 22:43:12.009 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2022-02-28 22:43:13.289 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-02-28 22:43:13.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:43:13.300 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-28 22:43:13.301 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-02-28 22:43:13.459 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-28 22:43:13.459 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3911 ms
+2022-02-28 22:43:13.681 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2022-02-28 22:43:13.799 INFO  com.alibaba.druid.pool.DruidDataSource            :994  [32m                  [0;39m {dataSource-1} inited
+2022-02-28 22:43:14.709 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-02-28 22:43:14.961 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:43:15.002 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-28 22:43:15.617 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:43:15.642 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-28 22:43:15.890 INFO  pers.jl.wiki.WikiApplication                      :61   [32m                  [0;39m Started WikiApplication in 7.401 seconds (JVM running for 9.705)
+2022-02-28 22:43:16.595 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-28 22:43:16.596 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-28 22:43:16.601 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 4 ms
+2022-02-28 22:43:34.445 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:43:34.668 INFO  com.alibaba.druid.pool.DruidDataSource            :2029 [32m                  [0;39m {dataSource-1} closing ...
+2022-02-28 22:43:34.693 INFO  com.alibaba.druid.pool.DruidDataSource            :2101 [32m                  [0;39m {dataSource-1} closed
+2022-02-28 22:45:23.140 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-02-28 22:45:23.155 INFO  pers.jl.wiki.WikiApplication                      :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_271 on DESKTOP-3I5LREP with PID 11184 (G:\ProjectSpace\IdeaProjects\PersProjects\wiki\target\classes started by DJ in G:\ProjectSpace\IdeaProjects\PersProjects\wiki)
+2022-02-28 22:45:23.157 INFO  pers.jl.wiki.WikiApplication                      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-28 22:45:23.284 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-28 22:45:23.284 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-28 22:45:26.828 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 22:45:26.832 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-28 22:45:26.895 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2022-02-28 22:45:28.579 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-02-28 22:45:28.590 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:45:28.591 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-28 22:45:28.591 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-02-28 22:45:28.887 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-28 22:45:28.887 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 5600 ms
+2022-02-28 22:45:29.138 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2022-02-28 22:45:29.279 INFO  com.alibaba.druid.pool.DruidDataSource            :994  [32m                  [0;39m {dataSource-1} inited
+2022-02-28 22:45:30.250 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-02-28 22:45:30.513 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:45:30.561 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-28 22:45:31.075 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:45:31.105 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-28 22:45:31.369 INFO  pers.jl.wiki.WikiApplication                      :61   [32m                  [0;39m Started WikiApplication in 9.592 seconds (JVM running for 12.209)
+2022-02-28 22:45:31.930 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-28 22:45:31.930 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-28 22:45:31.935 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 4 ms
+2022-02-28 22:46:38.935 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:46:39.279 INFO  com.alibaba.druid.pool.DruidDataSource            :2029 [32m                  [0;39m {dataSource-1} closing ...
+2022-02-28 22:46:39.318 INFO  com.alibaba.druid.pool.DruidDataSource            :2101 [32m                  [0;39m {dataSource-1} closed
+2022-02-28 22:46:41.192 INFO  pers.jl.wiki.WikiApplication                      :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_271 on DESKTOP-3I5LREP with PID 11184 (G:\ProjectSpace\IdeaProjects\PersProjects\wiki\target\classes started by DJ in G:\ProjectSpace\IdeaProjects\PersProjects\wiki)
+2022-02-28 22:46:41.193 INFO  pers.jl.wiki.WikiApplication                      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-28 22:46:45.498 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 22:46:45.499 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-28 22:46:45.509 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-02-28 22:46:47.487 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-02-28 22:46:47.489 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:46:47.490 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-28 22:46:47.499 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-02-28 22:46:48.434 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-28 22:46:48.435 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 7233 ms
+2022-02-28 22:46:48.506 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2022-02-28 22:46:48.520 INFO  com.alibaba.druid.pool.DruidDataSource            :994  [32m                  [0;39m {dataSource-2} inited
+2022-02-28 22:46:49.388 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-02-28 22:46:49.486 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:46:49.508 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-28 22:46:49.655 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:46:49.660 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-28 22:46:49.686 INFO  pers.jl.wiki.WikiApplication                      :61   [32m                  [0;39m Started WikiApplication in 9.344 seconds (JVM running for 90.525)
+2022-02-28 22:46:49.689 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-02-28 22:47:37.873 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:47:37.885 INFO  com.alibaba.druid.pool.DruidDataSource            :2029 [32m                  [0;39m {dataSource-2} closing ...
+2022-02-28 22:47:37.886 INFO  com.alibaba.druid.pool.DruidDataSource            :2101 [32m                  [0;39m {dataSource-2} closed
+2022-02-28 22:47:38.418 INFO  pers.jl.wiki.WikiApplication                      :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_271 on DESKTOP-3I5LREP with PID 11184 (G:\ProjectSpace\IdeaProjects\PersProjects\wiki\target\classes started by DJ in G:\ProjectSpace\IdeaProjects\PersProjects\wiki)
+2022-02-28 22:47:38.419 INFO  pers.jl.wiki.WikiApplication                      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-02-28 22:47:39.678 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 22:47:39.680 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-28 22:47:39.692 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-02-28 22:47:40.095 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-02-28 22:47:40.097 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:47:40.098 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-02-28 22:47:40.099 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-02-28 22:47:40.268 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-02-28 22:47:40.269 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1845 ms
+2022-02-28 22:47:40.408 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2022-02-28 22:47:40.447 INFO  com.alibaba.druid.pool.DruidDataSource            :994  [32m                  [0;39m {dataSource-3} inited
+2022-02-28 22:47:40.752 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-02-28 22:47:40.844 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-28 22:47:40.857 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-02-28 22:47:41.047 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-02-28 22:47:41.052 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-28 22:47:41.123 INFO  pers.jl.wiki.WikiApplication                      :61   [32m                  [0;39m Started WikiApplication in 2.804 seconds (JVM running for 141.962)
+2022-02-28 22:47:41.127 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-02-28 22:58:33.139 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-28 22:58:33.140 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-02-28 22:58:33.146 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2022-02-28 23:11:37.345 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-28 23:11:37.353 INFO  com.alibaba.druid.pool.DruidDataSource            :2029 [32m                  [0;39m {dataSource-3} closing ...
+2022-02-28 23:11:37.356 INFO  com.alibaba.druid.pool.DruidDataSource            :2101 [32m                  [0;39m {dataSource-3} closed
