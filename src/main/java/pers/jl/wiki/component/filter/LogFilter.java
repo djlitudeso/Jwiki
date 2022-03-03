@@ -1,3 +1,4 @@
+/*
 package pers.jl.wiki.component.filter;
 
 import org.slf4j.Logger;
@@ -8,12 +9,14 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+*/
 /**
  * 日志过滤器
  * @author: JL Du
  * @date: 2022/3/3 20:04
  * @version: 1.0.0
- */
+ *//*
+
 
  @Component
  public class LogFilter implements Filter {
@@ -40,3 +43,4 @@ import java.io.IOException;
          LOGGER.info("------------- LogFilter 结束 耗时：{} ms -------------", System.currentTimeMillis() - startTime);
      }
  }
+*/
